@@ -2,6 +2,9 @@
   "name": "error2",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -18,7 +21,8 @@
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "node-fetch-native": "^1.4.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
